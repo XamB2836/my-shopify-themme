@@ -134,6 +134,14 @@
             "caption": "2-5 business days"
           }
         },
+        "feature_jfmEfF": {
+          "type": "feature",
+          "settings": {
+            "icon": "*",
+            "title": "Fast shipping",
+            "caption": "2-5 business days"
+          }
+        },
         "feature_67gexc": {
           "type": "feature",
           "settings": {
@@ -146,6 +154,7 @@
       "block_order": [
         "feature_AzX4QT",
         "feature_nibxq4",
+        "feature_jfmEfF",
         "feature_67gexc"
       ],
       "name": "Custom hero banner",
