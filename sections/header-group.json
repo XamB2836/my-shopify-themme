@@ -83,6 +83,7 @@
         "logo_position": "left",
         "menu_position": "left",
         "menu_row": "top",
+        "customer_account_menu": "customer-account-main-menu",
         "show_search": true,
         "search_position": "right",
         "search_row": "top",
@@ -99,6 +100,10 @@
         "divider_width": 0,
         "divider_size": "page-width",
         "border_width": 0,
+        "actions_display_style": "icon",
+        "actions_font_size": "0.875rem",
+        "actions_font": "body",
+        "actions_text_case": "none",
         "color_scheme_top": "scheme-1",
         "color_scheme_bottom": "",
         "color_scheme_transparent": "scheme-6",
@@ -109,10 +114,83 @@
         "enable_transparent_header_collection": false,
         "collection_color_scheme": "default"
       }
+    },
+    "custom_hero_banner_RndDcp": {
+      "type": "custom-hero-banner",
+      "blocks": {
+        "feature_AzX4QT": {
+          "type": "feature",
+          "settings": {
+            "icon": "*",
+            "title": "Fast shipping",
+            "caption": "2-5 business days"
+          }
+        },
+        "feature_nibxq4": {
+          "type": "feature",
+          "settings": {
+            "icon": "*",
+            "title": "Fast shipping",
+            "caption": "2-5 business days"
+          }
+        },
+        "feature_67gexc": {
+          "type": "feature",
+          "settings": {
+            "icon": "*",
+            "title": "Fast shipping",
+            "caption": "2-5 business days"
+          }
+        }
+      },
+      "block_order": [
+        "feature_AzX4QT",
+        "feature_nibxq4",
+        "feature_67gexc"
+      ],
+      "name": "Custom hero banner",
+      "settings": {
+        "desktop_image": "shopify://shop_images/ripe-red-strawberries-in-a-white-bowl.jpg",
+        "media_position_desktop": "",
+        "media_position_mobile": "center center",
+        "min_height_desktop": 40,
+        "min_height_mobile": 68,
+        "enable_overlay": true,
+        "overlay_color": "#0f172a",
+        "overlay_opacity": 35,
+        "overlay_blur": 0,
+        "panel_background": "#111827",
+        "panel_opacity": 68,
+        "panel_text_color": "#ffffff",
+        "eyebrow": "New collection",
+        "heading": "A fully custom hero banner",
+        "subheading": "<p>Tell your story with custom alignment, spacing, overlays, CTA styles, and feature chips.</p>",
+        "content_vertical": "center",
+        "content_horizontal": "start",
+        "text_alignment": "center",
+        "content_max_width": 560,
+        "content_padding": 36,
+        "content_gap": 18,
+        "heading_size_desktop": 56,
+        "heading_size_mobile": 36,
+        "eyebrow_size": 13,
+        "text_size": 17,
+        "primary_label": "Shop now",
+        "primary_link": "",
+        "secondary_label": "Learn more",
+        "secondary_link": "",
+        "button_gap": 12,
+        "feature_background": "#ffffff",
+        "feature_text_color": "#111827",
+        "feature_border_color": "#d1d5db",
+        "feature_gap": 10,
+        "color_scheme": ""
+      }
     }
   },
   "order": [
     "header_announcements_9jGBFp",
-    "header_section"
+    "header_section",
+    "custom_hero_banner_RndDcp"
   ]
 }
